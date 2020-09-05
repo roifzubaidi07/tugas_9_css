@@ -1,0 +1,31 @@
+body {
+    background-image: url("Stupa_Borobudur.jpg");
+    position: relative;
+}
+
+img {
+    position: absolute;
+    float: right;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+}
+
+.container {
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    position: absolute;
+    float: right;
+    z-index: 2;
+    right: 0px;
+    top: 0px;
+}
+
+.content {
+    text-align: right;
+    z-index: 3;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
